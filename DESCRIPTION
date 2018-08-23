@@ -1,0 +1,12 @@
+Package: sgthings
+Type: Package
+Title: Sam Gardiner's R code
+Version: 0.1.0
+Author: Samuel Gardiner
+Maintainer: Samuel Gardiner <samuel.gardiner@students.mq.edu.au>
+Description: Miscellaneous R functions.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat
