@@ -21,7 +21,7 @@ rmvnorm <- function(n, mu, sigma){
 #' @param x A p-dimension vector.
 #' @param mu A p-dimensional mean vector.
 #' @param sigma A p \times p variance-covariance matrix.
-#'
+#' @return A scalar density at \code{x} for the distribution defined by \code{mu} and \code{sigma}.
 dmvnorm <- function(x, mu, sigma){
   # @TODO: dimension checking.
   p <- length(x)
